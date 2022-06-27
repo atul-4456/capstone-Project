@@ -1,0 +1,864 @@
+body{
+   
+position: relative;
+width: 1440px;
+height: 4611px;
+
+background: #FFFFFF;
+}
+.NavContainer{
+    position: absolute;
+width: 1440px;
+height: 130px;
+left: 0px;
+top: 0px;
+
+background: #F8F8F8;
+}
+.WhyUs{
+    position: absolute;
+width:auto ;
+height: 33px;
+right: 571px;
+top: 48px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #172233;
+}
+.About{
+    position: absolute;
+width: 85px;
+height: 33px;
+right: 436px;
+top: 48px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.Register{
+    position: absolute;
+width: 220px;
+height: 70px;
+right: 167px;
+top: 30px;
+
+background: linear-gradient(93.58deg, #3FC7F4 0%, #29B67F 100%);
+border-radius: 6.88356px;
+
+}
+.RegButton{
+    position: absolute;
+width: px;
+height: 33px;
+right: 20px;
+top: 18px;
+border: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+background: linear-gradient(93.58deg, #3FC7F4 0%, #29B67F 100%);
+color: #FFFFFF;
+}
+.Form{
+    position: absolute;
+width: 532.12px;
+height: 483.19px;
+right: 167px;
+top: 176.76px;
+
+background: #FFFDFD;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+}
+.h2{
+    position: absolute;
+width: 397.97px;
+height: 51px;
+left: calc(50% - 397.97px/2);
+top: 35.2px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+
+color: #172233;
+}
+.listphone{
+    position: absolute;
+width: 79px;
+height: 21px;
+left: 74.25px;
+top: 126px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+
+text-transform: capitalize;
+
+color: #828282;
+
+}
+
+.Email{
+    position: absolute;
+width: 45px;
+height: 21px;
+left: 74px;
+top: 185.53px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #828282;
+}
+
+.pwd{
+    position: absolute;
+    width: 137px;
+    height: 21px;
+    left: 74px;
+    top: 244.53px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #828282;
+}
+
+.Confirmpwd{
+    position: absolute;
+    left: 74px;
+    top: 303.53px;
+    width: 137px;
+    height: 21px;
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    
+    text-transform: capitalize;
+    
+    color: #828282;
+}
+/* Form Lines*/
+.linephone{
+    position: absolute;
+    left: 74px;
+top: 155px;
+width: 376.96px;
+height: auto;
+border-top: #F8F8F8;
+border-left: #F8F8F8;
+border-right: #F8F8F8;
+border-bottom: 1px solid #828282;
+
+}
+.lineEmail{
+    position: absolute;
+    left: 74px;
+top: 215.53px;
+width: 376.96px;
+height: auto;
+border-top: #F8F8F8;
+border-left: #F8F8F8;
+border-right: #F8F8F8;
+border-bottom: 1px solid  #828282;
+
+}
+.linepwd{
+    position: absolute;
+    left: 74px;
+top: 275.53px;
+width: 376.96px;
+height: auto;
+
+border-top:#F8F8F8 ;
+border-left: #F8F8F8;
+border-right: #F8F8F8;
+border-bottom: 1px solid #828282;
+
+;
+}
+.lineConfirmpwd{
+    position: absolute;
+    left: 74px;
+    top: 335.53px;
+    width: 376.96px;
+    height: auto;
+    border-top: #F8F8F8;
+    border-left: #F8F8F8;
+    border-right: #F8F8F8;
+    border-bottom: 1px solid #828282;
+    
+}
+.Haveaccount{
+    position: absolute;
+    right: 298.48px;
+    top: 431.94px;
+    width: 159px;
+    height: 23px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    
+    color: #828282;
+    
+}
+.Signin{
+    position: absolute;
+    right: 225.48px;
+    top: 431.53px;
+    width: 63px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    
+    color: #29B67F;
+    
+}
+.Cancel{
+    position: absolute;
+    right: 74px;
+    top: 369.63px;
+    width: 180px;
+    height: 40px;
+    background: #C4C4C4;
+    border-radius: 5px;
+    
+}
+.Submit{
+    position: absolute;
+    right: 274.64px;
+    top: 369.63px;
+    width: 180px;
+    height: 40px;
+    background: linear-gradient(93.58deg, #3FC7F4 0%, #29B67F 100%);
+    border-radius: 5px;
+}
+.Cancelbtn{
+    position: absolute;
+    right: 53px;
+    top: 6px;
+    width: 74px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    background: #C4C4C4;
+    color: #FFFFFF;
+    border:0px;
+    
+}
+.Submitbtn{
+    position: absolute;
+    right: 49px;
+    top: 6px;
+    
+    width: 76px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    background: linear-gradient(93.58deg, #3FC7F4 0%, #29B67F 100%);
+    border-radius: 5px;
+    border:0px;
+    color: #FFFFFF;
+}
+.LorContainer{
+    position: absolute;
+width: 455.24px;
+max-height: 319.29px;
+left: 153px;
+top: 219px;
+}
+.Lorh1{
+    position: absolute;
+width: 455.24px;
+height: 186.5px;
+left: 0px;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+text-transform: uppercase;
+
+color: #172233;
+
+}
+.Lorh3{
+    position: absolute;
+width: 445.05px;
+max-height: 120.79px;
+left: 0px;
+top: 198.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+color: #828282;
+
+}
+.Container{
+    position: absolute;
+width: 1132.53px;
+height: 1229px;
+left: 143px;
+top: 766px;
+background-color:#ffffff;
+
+}
+.Img1{
+    position: absolute;
+left: 0.06%;
+right: 0.06%;
+top: 0.09%;
+bottom: 0.09%;
+
+background: #8ECC91;
+border: 0.618455px solid #FFFFFF;
+}
+.Img2{
+    position: absolute;
+left:none;
+right: 1px;
+top: 0.09%;
+bottom: 0.09%;
+
+background: #6DC9C4;
+border: 0.609572px solid #FFFFFF;
+}
+.Img3{
+    position: absolute;
+    left: 0.06%;
+    right: 0%;
+    top:635.67px ;
+    bottom: 0%;
+    
+    background: #FDC477;
+}
+.Img4{
+    position: absolute;
+    left: none;
+    right: 1px;
+    top: 635.67px;
+    bottom: 0.09%;
+    
+    background: #52ACDB;
+    border: 0.601226px solid #FFFFFF;
+}
+.Imgh2{
+    position: absolute;
+    left: none;
+top: 320.47px;
+
+width: 440px;
+height: 113px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+text-transform: capitalize;
+color: #172233;
+
+}
+.Imgh5{
+    position: absolute;
+    left: none;
+top: 440.57px;
+width: 462.48px;
+height: 74.38px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+color: #828282;
+}
+.Img3h2{
+    position: absolute;
+width: 440px;
+height: 113px;
+left: 1px;
+top: 950px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+text-transform: capitalize;
+
+color: #172233;
+}
+.Img3h5{
+    position: absolute;
+width: 462.48px;
+height: 74.38px;
+left: 1px;
+top: 1051px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+color:#828282;
+
+transform: rotate(-0.76deg);
+}
+.Img2h2{
+    position: absolute;
+    width: 440px;
+    height: 113px;
+    left: 690px;
+    top: 320.47px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: right;
+    text-transform: capitalize;
+    
+    color: #172233;
+}
+.Img2h5{
+    position: absolute;
+    width: 462.48px;
+    height: 74.38px;
+    left: 671px;
+    top: 440.57px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: right;
+    
+    color: #828282;
+    
+    transform: rotate(-0.76deg);
+    
+}
+.Img4h2{
+    position: absolute;
+    width: 440px;
+    height: 113px;
+    left: 690px;
+    top: 950px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: right;
+    text-transform: capitalize;
+    
+    color: #172233;
+    
+    
+}
+.Img4h5{
+    position: absolute;
+    width: 462.48px;
+    height: 74.38px;
+    left: 671px;
+    top: 1051.7px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: right;
+    
+    color: #828282;
+    
+    transform: rotate(-0.76deg);
+    
+}
+.BlueContainer{
+    position: absolute;
+    left: calc(50% - 1440px/2);
+top: 2050.14px;
+width: 1440px;
+height: 600px;
+
+
+background: linear-gradient(100.08deg, #29B67F 0%, #3FC7F4 95.98%);
+}
+.Imgblue{
+    position: absolute;
+width: 489px;
+height: 489px;
+right: 164.29px;
+top: 43.86px;
+
+background: #FFFFFF;
+}
+.Imgblueh2{
+    position: absolute;
+    left: 144px;
+top: 140.86px;
+width: 525px;
+height: 116px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 51px;
+line-height: 126.19%;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.Imgblueh5{
+    position: absolute;
+    left: 144px;
+top: 326px;
+width: 506px;
+height: 49px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+color: #FFFFFF;
+
+}
+.DummyContainer{
+    position: absolute;
+width: 1440px;
+height: 478.86px;
+left: calc(50% - 1440px/2);
+top: 2650px;
+
+background:#FFFFFF;
+}
+.Dummyh2{
+    position: absolute;
+    width: 1092px;
+    height: 67px;
+    text-align: center;
+    left:200.5px;
+    top: -0.49px;
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 126.19%;
+    /* or 66px */
+    
+  
+    text-transform: uppercase;
+    
+    color: #828282;
+    
+}
+.Dummyh5{
+    position: absolute;
+    width: 827px;
+    height: 94px;
+    left: calc(50% - 827px/2);
+    top: 78.05px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #828282;
+}
+.Dummybtn{
+    position: absolute;
+    width: 275.34px;
+    height: 68.84px;
+    left: calc(50% - 275.34px/2 - 0px);
+    top: 273.05px;
+    
+    background: linear-gradient(93.58deg, #3FC7F4 0%, #29B67F 100%);
+    border-radius: 6.88356px;
+    
+}
+.Dummybtntext{
+    position: absolute;
+width: 119.77px;
+height: 39.92px;
+left: calc(50% - 119.77px/2 - 0.69px);
+top: 13px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 33.0411px;
+line-height: 39px;
+text-align: center;
+background: linear-gradient(93.58deg, #3FC7F4 0%, #29B67F 100%);
+color: #FFFFFF;
+border-style: hidden;
+}
+.DarkContainer{
+    position: absolute;
+width: 1440px;
+height: 654.87px;
+left: 0px;
+top: 3129px;
+
+background: linear-gradient(101.13deg, #090736 1.15%, #172233 98.16%);
+}
+.DarkImg{
+    position: absolute;
+width: 547.91px;
+height: 547.91px;
+right: 166.09px;
+bottom: 52.63px;
+border-radius: 50%;
+
+background: #FFFFFF;
+}
+.Darkh2{
+    position: absolute;
+    width: 596px;
+    height: 180px;
+    left: 141px;
+    bottom: 289.87px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126.19%;
+    /* or 56px */
+    
+    
+    color: #FFFFFF;
+}
+.Darkh5{
+    position: absolute;
+    width: 480px;
+    height: 89px;
+    left: 141px;
+    bottom: 191.87px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+    
+}
+
+.Img48{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: none;
+bottom: 0.1%;
+
+background: #FFFFFF;
+}
+.Img49{
+    position: absolute;
+right: 0%;
+top: 0%;
+bottom: 43.58%;
+
+background: rgba(41, 182, 127, 0.5);
+}
+.LastContainer{
+    position: absolute;
+width: 1440px;
+height: 654.87px;
+left: 0px;
+top: 3778px;
+
+background: linear-gradient(282.48deg, #39B7FD -5.5%, #000000 60.76%);
+}
+.Img39{
+    background-color:linear-gradient(282.48deg, #39B7FD -5.5%, #000000 60.76%) ;
+}
+.Lasth2{
+    position: absolute;
+    width: 596px;
+    height: 180px;
+    left: 755px;
+    bottom: 287.87px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126.19%;
+    /* or 56px */
+    
+    
+    color: #FFFFFF;
+}
+.Lasth5{
+    position: absolute;
+    width: 480px;
+    height: 89px;
+    left: 755px;
+    bottom: 189.87px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+}
+.Footer{
+    position: absolute;
+width: 1438.6px;
+height: 200px;
+left: 0px;
+bottom: -22px;
+
+background: #F6F6F6;
+}
+.Para{
+    position: absolute;
+width: 387.91px;
+height: 41.77px;
+left: 16.87px;
+bottom: 53.07px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 131.19%;
+/* or 24px */
+
+
+color: #757575;
+}
+.Privacy{
+    position: absolute;
+width: 78px;
+height: 31px;
+left: calc(50% - 78px/2 - 123.64px);
+bottom: 84.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 131.19%;
+/* or 31px */
+
+
+color: #757575;
+}
+.Terms{
+    position: absolute;
+width: 235px;
+height: 31px;
+left: calc(50% - 235px/2 + 62.86px);
+bottom: 84.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 131.19%;
+/* or 31px */
+
+
+color: #757575;
+}
+.Refund{
+    position: absolute;
+width: 147px;
+height: 31px;
+left: calc(50% - 147px/2 + 283.86px);
+bottom: 84.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 131.19%;
+/* or 31px */
+
+
+color: #757575;
+
+}
+.FooterImg{
+    position: absolute;
+
+right: 125.35px;
+bottom: 84.5px;
+
+background: #FFFFFF;
+}
